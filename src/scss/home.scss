@@ -64,6 +64,34 @@ h1 {
   margin: 24px 12px;
 }
 
+.home__review__card--partialFirst {
+  width: 12px;
+  margin-right: 0px;
+  position: relative;
+}
+
+.home__review__card--partialLast {
+  width: 12px;
+  margin-left: 0px;
+  position: relative;
+}
+
+.home__review__card__oval--left,
+.home__review__card__arrow--left {
+  position: absolute;
+  padding-left: 40px;
+}
+
+.home__review__card__oval--right,
+.home__review__card__arrow--right {
+  position: absolute;
+  padding-right: 40px;
+}
+
+.home__review__card__arrow {
+  padding-bottom: 14px;
+}
+
 .home__review__card__text {
   opacity: 0.8;
   color: $t3;
@@ -243,4 +271,3 @@ h2 {
   letter-spacing: 0.3px;
   line-height: 28px;
 }
-

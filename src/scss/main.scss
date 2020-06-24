@@ -40,6 +40,10 @@ $t4: #34383c;
     flex-wrap: wrap;
     justify-content: center;
   }
+  .home__review__card--partialLast,
+  .home__review__card--partialFirst {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 730px) {
