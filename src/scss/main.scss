@@ -19,6 +19,11 @@ $t4: #34383c;
 @import "../scss/footer.scss";
 
 //media
+@media only screen and (max-width: 930px) {
+  .sub__header__middle {
+    width: 60%;
+  }
+}
 @media only screen and (max-width: 900px) {
   .home__hero__header {
     width: 90%;
@@ -52,6 +57,24 @@ $t4: #34383c;
   }
 }
 
+@media only screen and (max-width: 570px) {
+  .sub__header__middle {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 16px;
+  }
+  .sub__header__item {
+    width: 38%;
+    padding-bottom: 16px;
+    text-align: center;
+  }
+
+  .sub__header__left {
+    padding-left: 0px;
+  }
+}
+
 @media only screen and (max-width: 420px) {
   .main__header__wrapper {
     height: 143px;
@@ -68,6 +91,7 @@ $t4: #34383c;
   .sub__header__middle {
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
   }
   .sub__header__item {
     width: 25%;
