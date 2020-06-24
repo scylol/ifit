@@ -8,10 +8,12 @@ export default function HomeReviews() {
         <img
           className="home__review__card__oval home__review__card__oval--left"
           src="images/oval.png"
+          alt="oval"
         />
         <img
           className="home__review__card__arrow home__review__card__arrow--left"
           src="images/left-arrow.png"
+          alt="arrow"
         />
       </div>
 
@@ -39,10 +41,12 @@ export default function HomeReviews() {
         <img
           className="home__review__card__oval home__review__card__oval--right"
           src="images/oval.png"
+          alt="oval"
         />
         <img
           className="home__review__card__arrow home__review__card__arrow--right"
           src="images/right-arrow.png"
+          alt="arrow"
         />
       </div>
     </div>

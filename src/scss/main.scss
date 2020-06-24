@@ -53,6 +53,9 @@ $t4: #34383c;
 }
 
 @media only screen and (max-width: 420px) {
+  .main__header__wrapper {
+    height: 143px;
+  }
   .main__header {
     height: auto;
     flex-wrap: wrap;

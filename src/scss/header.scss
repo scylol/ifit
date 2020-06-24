@@ -1,9 +1,21 @@
+.main__header__wrapper {
+  height: 47px;
+  z-index: 2;
+}
+
+.main__header__wrapper--hide {
+  display: none;
+}
+
 .main__header {
   height: 46px;
   background-color: $b1;
   display: flex;
   border-top: 1px solid #d5d6d6;
   border-bottom: 1px solid #d5d6d6;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .main__header__item {
