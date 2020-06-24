@@ -80,26 +80,35 @@ h1 {
 
 .home__review__card--partialFirst {
   width: 12px;
-  margin-right: 0px;
+  margin-left: 0px;
   position: relative;
 }
 
 .home__review__card--partialLast {
   width: 12px;
-  margin-left: 0px;
+  margin-right: 0px;
   position: relative;
 }
 
-.home__review__card__oval--left,
-.home__review__card__arrow--left {
+.home__review__card__oval--left {
   position: absolute;
-  padding-left: 40px;
+  left: 6px;
 }
 
-.home__review__card__oval--right,
+.home__review__card__arrow--left {
+  position: absolute;
+  left: 32px;
+}
+
+.home__review__card__oval--right {
+  position: absolute;
+  right: 6px;
+  
+}
+
 .home__review__card__arrow--right {
   position: absolute;
-  padding-right: 40px;
+  right: 32px;
 }
 
 .home__review__card__arrow {
