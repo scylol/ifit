@@ -1,0 +1,246 @@
+//hero section
+.home__hero {
+  height: 801px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__hero__image {
+  width: 100%;
+  position: absolute;
+  height: 801px;
+}
+
+.home__hero__header {
+  color: $t2;
+  font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 90px;
+  text-align: center;
+  width: 50%;
+  z-index: 1;
+}
+
+.home__hero__join {
+  width: 392px;
+  height: 56px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.24), 0 0 1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #0069d2;
+  z-index: 1;
+  border: none;
+  margin-top: 56px;
+  color: $t2;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+}
+
+//review section
+.home__reviews {
+  background-color: $b3;
+  height: 232px;
+  display: flex;
+}
+
+.home__review__card {
+  width: 440px;
+  box-shadow: 0 1px 2px rgba(46, 49, 52, 0.4);
+  border-radius: 4px;
+  background-color: $b1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 12px;
+}
+
+.home__review__card__text {
+  opacity: 0.8;
+  color: $t3;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  text-align: center;
+  width: 70%;
+  padding-top: 16px;
+}
+
+//workout section
+
+.home__workouts {
+  background-color: #ffffff;
+  padding: 50px 108px 26px 108px;
+}
+
+.home__workouts__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home__workout__card {
+  width: 288px;
+  height: 280px;
+  box-shadow: 0 7px 12px rgba(46, 49, 52, 0.3);
+  border-radius: 4px;
+  background-color: $b1;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.home__workout__card__main__content {
+  padding: 16px;
+}
+
+.home__workout__card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__workout__card__text {
+  color: $t3;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  padding-bottom: 8px;
+}
+
+.home__workout__card__icon {
+  margin-bottom: 10px;
+}
+p {
+  margin: 0;
+}
+
+.home__workout__info {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.home__workout__info__text {
+  color: $t3;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 12px;
+  padding-right: 8px;
+}
+
+.home__workout__info__icon {
+  padding-right: 4px;
+}
+
+.home__workout__details {
+  color: #0069d2;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+.home__workout__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.home__workout__overlay__image {
+  position: absolute;
+  right: 0;
+}
+
+.home__workout__overlay__text--text {
+  position: absolute;
+  top: 79px;
+  right: 27px;
+  color: $t2;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 12px;
+}
+
+.home__workout__overlay__text--number {
+  position: absolute;
+  top: 41px;
+  right: 47px;
+  color: $t2;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+
+.home__workout__overlay__tray {
+  position: absolute;
+  right: 44px;
+  top: 99px;
+}
+
+//equipment
+h2 {
+  margin: 0;
+}
+
+.home__equipment {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 34px;
+}
+
+.home__equipment__header {
+  text-align: center;
+  opacity: 0.8;
+  color: $t4;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 28px;
+  padding-bottom: 24px;
+}
+
+.home__equipment__content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home__equipment__card {
+  width: 330px;
+  height: 330px;
+  box-shadow: 0 1px 2px rgba(46, 49, 52, 0.4);
+  border-radius: 4px;
+  background-color: $b1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.home__equipment__card__text {
+  padding-top: 10px;
+  opacity: 0.8;
+  color: #2e3134;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 28px;
+}
+

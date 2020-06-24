@@ -1,5 +1,7 @@
-import React from "react"
+import React from "react";
+import Home from "./home";
+import "../scss/main.scss";
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+export default () => {
+  return <Home />;
+};
