@@ -1,23 +1,14 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function MainHeader() {
-  const prevScrollY = useRef(0);
   const [hideStickyHeader, setHideStickyHeader] = useState(false);
-  const [goingUp, setGoingUp] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (prevScrollY.current < currentScrollY && goingUp) {
-        setGoingUp(false);
-      }
-      if (prevScrollY.current > currentScrollY && !goingUp) {
-        setGoingUp(true);
-        setHideStickyHeader(false);
-      }
-      prevScrollY.current = currentScrollY;
+      console.log(currentScrollY);
       if (currentScrollY > 883) {
         setHideStickyHeader(true);
-      } else {
+      } else if (currentScrollY <= 800) {
         setHideStickyHeader(false);
       }
     };
@@ -25,7 +16,7 @@ export default function MainHeader() {
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [goingUp]);
+  }, [hideStickyHeader]);
   return (
     <div
       className={`main__header__wrapper ${
